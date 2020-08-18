@@ -1,0 +1,58 @@
+*.body{
+    margin:0px auto;
+    padding:0 ;
+    box-sizing: border-box;}
+
+.page {
+    height:619px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    grid-gap:13.82px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_label{
+    
+    width:294px;
+    height:49px
+    color: #016BC1B3;display: block;
+    font-size: 11px;
+    text-align: left;
+    font-family: "Arial",Regular;
+    font-size:12px;
+    letter-spacing: 0px;
+    color: #016BC1B3;
+}
+
+.page_input{
+    width: 283px;
+    height: 29px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #016BC1;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+
+.page_loginbtn,
+.page_signupbtn{
+    margin-top: 62.41px;
+    width: 132px;
+    height: 34px;
+    font-family: "Dosis",SemiBold;
+    font-size: 11px;
+    background: #016BC1 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    opacity: 1;
+    color: #fff;
+    border: none;
+}
+.page_signupbtn{
+    margin-left:13px;
+    background: #A1C1E6 0% 0% no-repeat padding-box;
+}
